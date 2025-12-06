@@ -29,7 +29,7 @@ Any information goes up here...
 General:<br>
 <pre>
 <div class="general-disclaimer">
-All code shown will be in python, HOWEVER the information applys to most programming languages.
+All code shown will be in python, HOWEVER the information applies to most programming languages.
 </div>
 </pre>
 
@@ -49,7 +49,21 @@ character = "a"   # Any alphanumeric character, Not a data type in most programm
 These are the 5 common data types, you will be using 4 of the 5 types in almost every script you create.
 </pre>
 
-<br><br> <!-- Newline -->
+<pre>
+Comments
+<code class="language-python">
+# These are comments!
+# Each programming language uses a different symbol for comments.
+# In Python, it is a #
+# Comments are not ran as code, they are simply ignored.
+</code>
+<span class="small-line">
+> 
+</span>
+Comments can be very useful for understanding what a piece of code does
+</pre>
+
+<br><br>
 
 Python examdples:
 <pre>
@@ -101,6 +115,26 @@ print(division)
 This script shows how you can use basic maths with code!
 </pre>
 
+<pre>
+Functions
+<code class="language-python">
+def my_function(my_text_1, my_number_2):
+  print("I created a function!")
+  print(my_text_1) # This prints whatever is entered in argument 1 (my_text_1)
+  print(my_number_2) # This prints whatever is entered in argument 2 (my_number_2)
+
+my_function("Hello", 10) # In this case, it should print Hello and 10, as that is what has been entered
+</code>
+<span class="small-line">
+> Hello
+  10
+</span>
+Let's break down parts of this function:
+  def -> this tells the program that it is a function
+  my_function -> this is the name of the function that can be called later on
+  (my_text_1, my_number_2) -> these are ARGUMENTS, it allows the code inside the function to change depending on what is entered
+
+</pre>
 
 <pre>
 This script uses Functions AND For loops
