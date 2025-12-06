@@ -19,5 +19,5 @@ pre {
 }
 
 .italic {
-  font-s
+  font-style: italic;
 }
