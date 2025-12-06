@@ -1,0 +1,31 @@
+code {
+  font-family: monospace !important;
+  font-size: 12px !important;
+}
+
+pre {
+  font-size: 14px !important;
+  color: #7f7f7f !important;
+}
+
+.small-line {
+  font-size: 13px !important;
+  color: #bfbfbf !important;
+}
+
+.format-example {
+  font-size: 24px !important;
+}
+
+.general-disclaimer{
+  font-style: italic;
+  font-size: 4px;
+  color: #555555;
+}
+
+.bold {
+  font-weight: bold;
+}
+.italic {
+  font-style: italic;
+}
